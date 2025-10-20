@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.hero{
+  height: 900px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/cedarwawa_wikaninnish.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(95%);
+}
+
+.navbar {
+  background-color: transparent;
+  font-family: Arial;
+  font-style: bold;
+  overflow: hidden;
+  height: 100px;
+}
+
+.navbar a {
+  font-size: 16px;
+  color: white;
+  margin: 25px;
+  padding: 14px 16px;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  color: #E76F51;
+  text-decoration: underline;
+}
+
+.navbar__title {
+  font-family: "Chela One", system-ui;
+  font-size: 36px;
+  float: left;
+  color: white;
+  margin: 25px;
+  padding-left: 25px;
+}
+
+.navbar__right {
+  float: right;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbutton {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  margin: 25px;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: white;
+  background-color: #0063ab;
+  text-decoration: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0063ab;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+  color:#0063ab;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.wawa {
+    float: center;
+    padding-top: 15%;
+    font-family: "Chela One", system-ui;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.wawa__intro {
+  font-size: 24px;
+  color: #0063ab;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  margin-left: 200px;
+  margin-bottom: 25px;
+}
+.wawa2 {
+  height: 200px;
+  width: 100%;
+  font-size: 48px;
+  background-color: white;
+  color: #0063ab;
+  padding: 30px;
+}
+
+.wawa__img {
+  height: 900px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/cedarwawa_ditidaht.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(95%);
+}
+
+.wawa__language {
+  font-style:oblique;
+  font-weight: 500;
+  text-align: center;
+}
+
+.footer {
+  height: 200px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #0063ab;
+}
+
+.footer__text {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  padding-top: 90px;
+}
+h1 {
+  font-family: "Chela One", system-ui;
+}
+
+h2 {
+  font-size: 48px;
+}
